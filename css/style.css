@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'sunnySpells';
+    src: url('../assets/fonts/SunnySpellsRegular.otf');
+}
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    user-select: none;
+    font-family: sunnySpells;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UI {
+    position: fixed;
+    width: 600px;
+    height: 550px;
+    transition: 800ms;
+    -webkit-transition: 800ms;
+}
+
+.generalUI {
+    position: fixed;
+    width: 600px;
+    height: 550px;
+}
+
+.heading2 {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+}
+
+/* main menu */
+.menu {
+    background-image: url("../assets/graphics/menu_background_sunset.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap: 15px;
+}
+#title {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 0 20px #d0a041;
+    letter-spacing: 4px;
+}
+.menu button {
+    border: none;
+    padding: 5px;
+    width: 180px;
+    font-family: sunnySpells;
+    font-size: 40px;
+    background-color: rgba(34, 182, 59, 0.658);
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 2px #c9a13c36,
+    inset 0px 0px 20px 4px #90d5a254;
+    letter-spacing: 2px;
+}
+.menu button:hover {
+    opacity: 0.8;
+}
+.menu button:active {
+    width: 190px;
+}
+#canvas {
+    background-image: url("../assets/graphics/background.svg");
+}
+
+/* levels menu */
+
+.menu_levels {
+    display: grid;
+    grid-template-rows: 90px auto 60px;
+    grid-template-columns: 60px auto 60px;
+    /* background-color: rgb(239 204 90); */
+    background-image: radial-gradient(rgb(255 205 115), rgb(255 226 84));
+    margin: 20px;
+    width: calc(600px - 40px);
+    height: calc(550px - 40px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px rgb(44 44 44 / 32%);
+}
+
+.levels {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: start;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#headingLevels {
+    grid-column: 1 / span 3;
+}
+
+.level_arrow {
+    text-align: center;
+    margin-top: calc((360px / 2) - (50px / 2));
+    font-size: 50px;
+    height: 50px;
+}
+
+.level_arrow:hover {
+    color: rgb(65, 65, 65);
+}
+
+.levels div {
+    font-size: 30px;
+    /* padding: 20px; */
+    text-align: center;
+    background-color: rgba(163, 255, 110, 0.637);
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #0000002e;
+}
+
+.levels div:hover {
+    background-color: rgba(144, 255, 110, 0.637);
+}
+
+.levels div span::before {
+    position: relative;
+    display: inline;
+    top: -38px;
+    line-height: 0px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 6px rgb(158, 158, 158);
+}
+.levels div span:nth-child(2)::before {
+    font-size: 32px;
+    top: -43px;
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+.pageNo {
+    font-size: 80px;
+    text-align: center;
+    grid-column: 1 / span 3;
+    line-height: 20px;
+}
+
+.pageNo span {
+    color: gray;
+    margin: -8px;
+}
+
+/* settings menu */
+
+.menu_settings {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#e57e67, #d98c5e);
+    align-content: center;
+    row-gap: 60px;
+    column-gap: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: calc(550px - 40px);
+    width: calc(600px - 200px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px #00000063;
+}
+
+#headingSettings {
+    grid-column: 1 / span 2;
+}
+
+.menu_settings div {
+    grid-column: 1 / span 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+}
+
+.menu_settings button {
+    background-color: #c763c199;
+    border: none;
+    padding: 20px;
+    font-size: 26px;
+    font-family: sunnySpells;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px #00000047;
+}
+
+/* // slider customization */
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 4px;
+    width: 180px;
+    background: #797979;
+    outline: none;
+    opacity: 0.7; 
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; 
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    background: #c763c0;
+    box-shadow: inset 0px 0px 10px 2px #0000009f;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    background: #c763c0;
+    box-shadow: inset 0px 0px 10px 2px #0000009f;
+    cursor: pointer;
+}
+
+/* pause menu */
+
+.menu_pause {
+    display: grid;
+    background-image: linear-gradient(#ddc239, #9fd733);
+    row-gap: 24px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: calc(550px - 40px);
+    width: calc(600px - 200px);
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0px 0px 20px 2px #00000063;
+}
+.menu_pause button {
+    padding: 10px;
+    font-family: sunnySpells;
+    font-size: 28px;
+    border: none;
+    border-radius: 8px;
+    width: 140px;
+    box-shadow: inset 0px 0px 6px 0px #00000042;
+    background-color: #98e12f;
+}

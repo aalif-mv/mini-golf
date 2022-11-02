@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="13.229166mm"
+   height="13.229166mm"
+   viewBox="0 0 13.229166 13.229166"
+   version="1.1"
+   id="svg27711"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="coin_money.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27713"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.2410024"
+     inkscape:cx="28.334274"
+     inkscape:cy="32.531944"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs27708">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient33215">
+      <stop
+         style="stop-color:#decc97;stop-opacity:0.50700933"
+         offset="0"
+         id="stop33211" />
+      <stop
+         style="stop-color:#b49026;stop-opacity:0.33411214"
+         offset="1"
+         id="stop33213" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient32588">
+      <stop
+         style="stop-color:#deb22f;stop-opacity:1"
+         offset="0"
+         id="stop32584" />
+      <stop
+         style="stop-color:#fdcb36;stop-opacity:1"
+         offset="1"
+         id="stop32586" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient32588"
+       id="linearGradient32590"
+       x1="2.4959445e-07"
+       y1="6.6145835"
+       x2="13.229167"
+       y2="6.6145835"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient33215"
+       id="radialGradient33217"
+       cx="9.694068"
+       cy="8.5329504"
+       fx="9.694068"
+       fy="8.5329504"
+       r="6.485146"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:url(#linearGradient32590);fill-opacity:1;stroke:#e1b530;stroke-width:0.076282;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;stroke-opacity:1;fill-rule:nonzero"
+       id="path29534"
+       cx="6.6145835"
+       cy="6.6145835"
+       r="6.5764422" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="4.5435014"
+       y="9.7432852"
+       id="text30654"><tspan
+         sodipodi:role="line"
+         id="tspan30652"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Andalus;-inkscape-font-specification:Andalus;stroke-width:0.264583"
+         x="4.5435014"
+         y="9.7432852">$</tspan></text>
+    <circle
+       style="fill:url(#radialGradient33217);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.258875;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path33111"
+       cx="6.6145835"
+       cy="6.6145835"
+       r="6.485146" />
+  </g>
+</svg>
